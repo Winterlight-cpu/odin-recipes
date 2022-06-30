@@ -1,3 +1,38 @@
-h1 {
-    color: red;
+.header-index {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:  bold;
+    color: grey;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.button-lasagna {
+    background-color: lightblue;
+
+}
+
+.button-eggs {
+    background-color: lightgreen;
+}
+
+.button-fake {
+    background-color: lightcoral;
+}
+
+/*Grouping Selector example. I'm happy I remembered this*/
+.button-eggs,
+.button-fake,
+.button-lasagna {
+
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*I think this is a cascading issue*/
+
+#lasagna-id#egg-id#fake-id {
+    text-align: center;
+    color: aqua;
 }
